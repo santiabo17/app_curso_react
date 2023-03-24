@@ -12,7 +12,7 @@ function CreateTodoButton(props) {
         props.setOpenModal(prevState => !prevState)
     }
     return (
-        <button 
+        <button
             className='CreateTodoButton'
             onClick={onClickFunction}
         >
