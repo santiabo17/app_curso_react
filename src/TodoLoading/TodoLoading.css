@@ -1,0 +1,34 @@
+.loader {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border: 10px solid rgb(89, 105, 186);
+    border-radius: 50%;
+    border-top: 10px solid white;
+    width: 60px;
+    height: 60px;
+    animation: spinner 1.2s linear infinite;
+  }
+  @keyframes spinner {
+    0%  { 
+            transform: rotate(0deg);
+        }
+    25%{
+            transform: rotate(90deg);
+        }
+    50%{
+            transform: rotate(270deg);
+        }
+    100%{ 
+            transform: rotate(360deg);
+        }
+  }
+
+.load_message{
+    margin-top: 20px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
